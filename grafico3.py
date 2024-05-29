@@ -1,7 +1,7 @@
 import pandas as pd
 from plotly import graph_objects as go
 # Importando dataset base
-file_url = 'https://github.com/josueramalho/visualizacao-da-informacao/raw/master/src/dataset.csv'
+file_url = 'https://github.com/fernlara/visualizacao_da_informacao/raw/master/src/dataset.csv'
 dataset = pd.read_csv(file_url)
 dataset = pd.DataFrame(dataset)
 # Tratando dataset e selecionando os dados que serão usados
